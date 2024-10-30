@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7fdc4c2c74a327d409a23788458ec04d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 330442761224192
+    m_Localized: Start game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330486444900352
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1767277549203456
+    m_Localized: "It seemed as though nothing threatened this world. People lived,
+      unaware of what awaited them in the future.  \r\nOne calm day, enormous gates
+      unexpectedly appeared in the middle of the forest. They were colossal,  \r\ntheir
+      height could rival mountains. It felt like darkness was about to seep through
+      them.  \r\nThe gates opened, and from them emerged monsters unlike anything
+      the world had ever seen.  \r\nHumanity was gripped by fear, it seemed as though
+      there was no hope for the future.  \r\nDespite this, people managed to survive.
+      Later, they discovered an unseen power within themselves \u2014  \r\nthe ability
+      to use magic. Thanks to this, humanity restored order, and life became easier. 
+      \r\nHowever, they couldn\u2019t defeat all the monsters, so people resigned
+      themselves and continued to live,  \r\nwhile simultaneously defending against
+      the creatures."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2118866640941056
+    m_Localized: "Yeah, the slime turned out to be not such an easy opponent after
+      all. \r\nMaybe I should head to the tavern and rest there?  \r\nHmm... \r\nThat\u2019s
+      what I'll do."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2123301475692544
+    m_Localized: Sam
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
