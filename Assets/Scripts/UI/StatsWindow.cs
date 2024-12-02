@@ -11,12 +11,12 @@ public class StatsWindow : MonoBehaviour
 
     private void OnEnable()
     {
-        hpStatText.text = "Max HP: " + DataManager.Instance.data.maxHp;
-        mpStatText.text = "Max MP: " + DataManager.Instance.data.maxMp;
-        defStatText.text = "DEF: " + DataManager.Instance.data.def;
-        strStatText.text = "STR: " + DataManager.Instance.data.str;
-        magStatText.text = "MAG: " + DataManager.Instance.data.str;
-        levelText.text = "Level " + DataManager.Instance.data.level;
+        hpStatText.text = "Max HP: " + DataManager.Instance.data.MaxHp;
+        mpStatText.text = "Max MP: " + DataManager.Instance.data.MaxMp;
+        defStatText.text = "DEF: " + DataManager.Instance.data.Def;
+        strStatText.text = "STR: " + DataManager.Instance.data.Str;
+        magStatText.text = "MAG: " + DataManager.Instance.data.Str;
+        levelText.text = "Level " + DataManager.Instance.data.Level;
     }
 
     public void Show(GameObject obj)
