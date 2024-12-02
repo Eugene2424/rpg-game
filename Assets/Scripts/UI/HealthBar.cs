@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
     void Update()
     {
         _scale = transform.GetChild(0).transform.localScale; 
-        if (value / maxValue != float.NaN)
+        if (!float.IsNaN(value / maxValue))
             transform.GetChild(0).transform.localScale = new Vector3(_scale.x, value / maxValue, _scale.z);
     }
 }

@@ -1670,7 +1670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f8b5a54c4532f40b3b806d50ea74c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAfterBattle: {fileID: 890023343}
+  _spawnAfterBattle: {fileID: 0}
+  _levelForBattle: 1
   enemyName: Bat
   sceneName: BattleCave
 --- !u!61 &726132897
@@ -2885,6 +2886,10 @@ PrefabInstance:
     - target: {fileID: 3518658202226901933, guid: a08696a1ebfe09a4796e030786564009, type: 3}
       propertyPath: world
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518658202226901933, guid: a08696a1ebfe09a4796e030786564009, type: 3}
+      propertyPath: _speed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4540524906400595428, guid: a08696a1ebfe09a4796e030786564009, type: 3}
       propertyPath: m_Sprite
@@ -5734,21 +5739,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796da922b65786246b87824ba0c63abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    maxHp: 140
-    maxMp: 40
-    def: 20
-    str: 22
-    mag: 30
-    exp: 1000
-    level: 1
-    hpPotions: 1
-    mpPotions: 1
-    strPotions: 1
-    type: 1
-  posVillage: {x: 0, y: 0, z: 0}
-  posForest: {x: 0, y: 0, z: 0}
-  battleEnemyName: 
 --- !u!4 &2010333974
 Transform:
   m_ObjectHideFlags: 0
@@ -5907,7 +5897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f8b5a54c4532f40b3b806d50ea74c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAfterBattle: {fileID: 2082104367}
+  _spawnAfterBattle: {fileID: 0}
+  _levelForBattle: 1
   enemyName: Golem1
   sceneName: BattleCave
 --- !u!1 &2058387120

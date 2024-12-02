@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battles/BattleCave.unity
     guid: 54fa4c4fe52197e429bb5c331ebad77c
+  - enabled: 1
+    path: Assets/Scenes/Battles/BattleForest 1.unity
+    guid: 61aa3e5e842000b41924e975bec6c0cd
+  - enabled: 1
+    path: Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/TestSceneContextEvents.unity
+    guid: 6a6e139b8a4d4d544a3318c53b9ae3d6
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: c0362b74a9903614497b6a293d2450fd, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 39249577a8969be4cac16bf60f5d2007, type: 2}

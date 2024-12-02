@@ -33,19 +33,6 @@ public class PlayerEffects : MonoBehaviour
         effectsDuration[(int)EffectType.STR_BUFF] = 2;
     }
 
-    private void Update()
-    {
-        if (IsEffectEnded(EffectType.SHIELD_BUFF))
-        {
-            DestroyShieldEffect();
-        }
-        if (IsEffectEnded(EffectType.STR_BUFF))
-        {
-            DestroyStrengthEffect();
-        }
-    }
-
-
     public void UpdateEffectsNums()
     {
         for (int i = 0; i < effectsNums.Length; i++)
